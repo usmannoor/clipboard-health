@@ -23,3 +23,5 @@ const convertToString = (data) => {
   return JSON.stringify(data);
 }
 
+exports.createHash = createHash;
+exports.convertToString = convertToString;
